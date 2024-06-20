@@ -1,0 +1,97 @@
+#include "Helper.hpp"
+#include "HCTree.hpp"
+using namespace std;
+static void clear(HCNode* node);
+
+// clear helper
+static void clear(HCNode* node){
+    if (node == nullptr){
+        return;
+    }
+    clear(node->c0);
+    clear(node->c1);
+    delete node;
+}
+
+// destructor
+HCTree::~HCTree(){
+    clear(root);
+}
+
+void HCTree::build(const vector<int>& freqs){
+    priority_queue<HCNode*, vector<HCNode*>, HCNodePtrComp> pq;
+    for (unsigned int i =0; i < freqs.size(); ++i){
+        if(freqs[i]>0){
+            this->leaves[i] = new HCNode(freqs[i], static_cast<unsigned char>(i));
+            pq.push(this->leaves[i]);
+        }
+    }
+
+    while (pq.size() > 1){
+        HCNode* newChild0 = pq.top();
+        pq.pop();
+        HCNode* newChild1 = pq.top();
+        pq.pop();
+        int totalCount = newChild0->count + newChild1->count;
+        HCNode* parent = new HCNode(totalCount, newChild0->symbol);
+        parent->c0 = newChild0;
+        parent->c1 = newChild1;
+        newChild0->p = parent;
+        newChild1->p = parent;
+        pq.push(parent);
+    }
+
+    if (!pq.empty()){
+        root = pq.top();
+    } 
+
+    else {
+        root = nullptr; 
+    }
+}
+
+
+void HCTree::encode(unsigned char symbol, FancyOutputStream & out) const{
+    vector<int> reversedBits;
+    HCNode* node = this->leaves[symbol];
+
+    while(node->p != nullptr){
+        reversedBits.push_back(node->p->c1 == node);
+        node = node->p;
+    }
+
+    for(auto itr = reversedBits.rbegin(); itr != reversedBits.rend(); ++itr){
+        out.write_bit(*itr);
+    }
+}
+
+unsigned char HCTree::decode(FancyInputStream & in) const{
+    HCNode* node = root;
+
+    /*if (node->c0 != nullptr || node->c1 != nullptr){
+        while(in.read_bit() != -1){
+            
+        }
+    }*/
+
+    while(node->c0 != nullptr || node->c1 != nullptr){
+        int bits = in.read_bit();
+
+        if (bits == -1){
+            throw runtime_error("Unexpected end of input stream");
+        }
+
+        if (bits == 0 && node->c0){
+            node = node->c0;
+        }
+
+        else if (bits == 1 && node->c1){
+            node = node->c1;
+        }
+
+        else{
+            throw runtime_error("wrong huffman tree or invalid bit sequence");
+        }
+    }
+    return node->symbol;
+}
