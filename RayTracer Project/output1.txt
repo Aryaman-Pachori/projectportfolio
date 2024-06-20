@@ -1,0 +1,331 @@
+g++ -g -o raytracer main.o scene.o film.o readfile.o camera.o raytracer.o geometry.o Transform.o -I./glm-0.9.7.1 -IC:/FreeImage/Dist/x64 -LC:/FreeImage/Dist/x64 -lfreeimage
+./raytracer testscenes/custom.test
+Number of Arguments 2
+size 10 10
+45
+point
+1
+1
+3
+1
+1
+1
+Failed reading value 3 will skip
+diffuse
+0 0 0
+specualar
+0 0 0
+maxverts 8
+Ambient: 0.7 0.7 1
+Ambient: 0.7 0.7 0.4
+Ambient: 0 1 0
+Ambient: 1 0 0
+Ambient: 0 1 1
+Ambient: 0 1 1
+Ambient: 0 1 1
+Ambient: 0 1 1
+Done Reading File
+=============================
+fovy: 45
+x: 0 y: 0
+alpha: 0.414214 beta: 0.414214
+Ray direction: -0.357407 0.231788 -0.904729
+x: 0 y: 1
+alpha: 0.331371 beta: 0.414214
+Ray direction: -0.292736 0.237309 -0.926278
+x: 0 y: 2
+alpha: 0.248528 beta: 0.414214
+Ray direction: -0.223787 0.241887 -0.944145
+x: 0 y: 3
+alpha: 0.165685 beta: 0.414214
+Ray direction: -0.151311 0.245323 -0.95756
+x: 0 y: 4
+alpha: 0.0828427 beta: 0.414214
+Ray direction: -0.0763135 0.247457 -0.965889
+x: 0 y: 5
+alpha: -0 beta: 0.414214
+Ray direction: 0 0.248181 -0.968714
+x: 0 y: 6
+alpha: -0.0828427 beta: 0.414214
+Ray direction: 0.0763135 0.247457 -0.965889
+x: 0 y: 7
+alpha: -0.165685 beta: 0.414214
+Ray direction: 0.151311 0.245323 -0.95756
+x: 0 y: 8
+alpha: -0.248528 beta: 0.414214
+Ray direction: 0.223787 0.241887 -0.944145
+x: 0 y: 9
+alpha: -0.331371 beta: 0.414214
+Ray direction: 0.292736 0.237309 -0.926278
+x: 1 y: 0
+alpha: 0.414214 beta: 0.331371
+Ray direction: -0.365919 0.295856 -0.882367
+x: 1 y: 1
+alpha: 0.331371 beta: 0.331371
+Ray direction: -0.300057 0.303255 -0.904435
+x: 1 y: 2
+alpha: 0.248528 beta: 0.331371
+Ray direction: -0.22961 0.30941 -0.922792
+x: 1 y: 3
+alpha: 0.165685 beta: 0.331371
+Ray direction: -0.155366 0.314044 -0.93661
+x: 1 y: 4
+alpha: 0.0828427 beta: 0.331371
+Ray direction: -0.0783957 0.316925 -0.945205
+x: 1 y: 5
+alpha: -0 beta: 0.331371
+Ray direction: 0 0.317904 -0.948123
+x: 1 y: 6
+alpha: -0.0828427 beta: 0.331371
+Ray direction: 0.0783957 0.316925 -0.945205
+x: 1 y: 7
+alpha: -0.165685 beta: 0.331371
+Ray direction: 0.155366 0.314044 -0.93661
+x: 1 y: 8
+alpha: -0.248528 beta: 0.331371
+Ray direction: 0.22961 0.30941 -0.922792
+x: 1 y: 9
+alpha: -0.331371 beta: 0.331371
+Ray direction: 0.300057 0.303255 -0.904435
+x: 2 y: 0
+alpha: 0.414214 beta: 0.248528
+Ray direction: -0.372978 0.36124 -0.854631
+x: 2 y: 1
+alpha: 0.331371 beta: 0.248528
+Ray direction: -0.306147 0.37064 -0.87687
+x: 2 y: 2
+alpha: 0.248528 beta: 0.248528
+Ray direction: -0.234468 0.378481 -0.89542
+x: 2 y: 3
+alpha: 0.165685 beta: 0.248528
+Ray direction: -0.158755 0.384396 -0.909415
+x: 2 y: 4
+alpha: 0.0828427 beta: 0.248528
+Ray direction: -0.0801384 0.388082 -0.918134
+x: 2 y: 5
+alpha: -0 beta: 0.248528
+Ray direction: 0 0.389334 -0.921097
+x: 2 y: 6
+alpha: -0.0828427 beta: 0.248528
+Ray direction: 0.0801384 0.388082 -0.918134
+x: 2 y: 7
+alpha: -0.165685 beta: 0.248528
+Ray direction: 0.158755 0.384396 -0.909415
+x: 2 y: 8
+alpha: -0.248528 beta: 0.248528
+Ray direction: 0.234468 0.378481 -0.89542
+x: 2 y: 9
+alpha: -0.331371 beta: 0.248528
+Ray direction: 0.306147 0.37064 -0.87687
+x: 3 y: 0
+alpha: 0.414214 beta: 0.165685
+Ray direction: -0.378277 0.426897 -0.82138
+x: 3 y: 1
+alpha: 0.331371 beta: 0.165685
+Ray direction: -0.310731 0.438336 -0.843391
+x: 3 y: 2
+alpha: 0.248528 beta: 0.165685
+Ray direction: -0.238132 0.447898 -0.861789
+x: 3 y: 3
+alpha: 0.165685 beta: 0.165685
+Ray direction: -0.161316 0.455125 -0.875693
+x: 3 y: 4
+alpha: 0.0828427 beta: 0.165685
+Ray direction: -0.0814569 0.459632 -0.884366
+x: 3 y: 5
+alpha: -0 beta: 0.165685
+Ray direction: 0 0.461165 -0.887315
+x: 3 y: 6
+alpha: -0.0828427 beta: 0.165685
+Ray direction: 0.0814569 0.459632 -0.884366
+x: 3 y: 7
+alpha: -0.165685 beta: 0.165685
+Ray direction: 0.161316 0.455125 -0.875693
+x: 3 y: 8
+alpha: -0.248528 beta: 0.165685
+Ray direction: 0.238132 0.447898 -0.861789
+x: 3 y: 9
+alpha: -0.331371 beta: 0.165685
+Ray direction: 0.310731 0.438336 -0.843391
+x: 4 y: 0
+alpha: 0.414214 beta: 0.0828427
+Ray direction: -0.381567 0.49166 -0.782736
+x: 4 y: 1
+alpha: 0.331371 beta: 0.0828427
+Ray direction: -0.313583 0.505075 -0.804093
+x: 4 y: 2
+alpha: 0.248528 beta: 0.0828427
+Ray direction: -0.240415 0.516303 -0.821968
+x: 4 y: 3
+alpha: 0.165685 beta: 0.0828427
+Ray direction: -0.162914 0.524798 -0.835492
+x: 4 y: 4
+alpha: 0.0828427 beta: 0.0828427
+Ray direction: -0.08228 0.5301 -0.843934
+x: 4 y: 5
+alpha: -0 beta: 0.0828427
+Ray direction: 0 0.531904 -0.846805
+x: 4 y: 6
+alpha: -0.0828427 beta: 0.0828427
+Ray direction: 0.08228 0.5301 -0.843934
+x: 4 y: 7
+alpha: -0.165685 beta: 0.0828427
+Ray direction: 0.162914 0.524798 -0.835492
+x: 4 y: 8
+alpha: -0.248528 beta: 0.0828427
+Ray direction: 0.240415 0.516303 -0.821968
+x: 4 y: 9
+alpha: -0.331371 beta: 0.0828427
+Ray direction: 0.313583 0.505075 -0.804093
+x: 5 y: 0
+alpha: 0.414214 beta: 0
+Ray direction: -0.382683 0.554328 -0.739104
+x: 5 y: 1
+alpha: 0.331371 beta: 0
+Ray direction: -0.314551 0.569544 -0.759392
+x: 5 y: 2
+alpha: 0.248528 beta: 0
+Ray direction: -0.241191 0.582287 -0.776382
+x: 5 y: 3
+alpha: 0.165685 beta: 0
+Ray direction: -0.163457 0.59193 -0.78924
+x: 5 y: 4
+alpha: 0.0828427 beta: 0
+Ray direction: -0.0825599 0.597952 -0.797269
+x: 5 y: 5
+alpha: -0 beta: 0
+Ray direction: 0 0.6 -0.8
+x: 5 y: 6
+alpha: -0.0828427 beta: 0
+Ray direction: 0.0825599 0.597952 -0.797269
+x: 5 y: 7
+alpha: -0.165685 beta: 0
+Ray direction: 0.163457 0.59193 -0.78924
+x: 5 y: 8
+alpha: -0.248528 beta: 0
+Ray direction: 0.241191 0.582287 -0.776382
+x: 5 y: 9
+alpha: -0.331371 beta: 0
+Ray direction: 0.314551 0.569544 -0.759392
+x: 6 y: 0
+alpha: 0.414214 beta: -0.0828427
+Ray direction: -0.381567 0.613762 -0.69116
+x: 6 y: 1
+alpha: 0.331371 beta: -0.0828427
+Ray direction: -0.313583 0.630508 -0.710018
+x: 6 y: 2
+alpha: 0.248528 beta: -0.0828427
+Ray direction: -0.240415 0.644525 -0.725802
+x: 6 y: 3
+alpha: 0.165685 beta: -0.0828427
+Ray direction: -0.162914 0.655129 -0.737743
+x: 6 y: 4
+alpha: 0.0828427 beta: -0.0828427
+Ray direction: -0.08228 0.661748 -0.745198
+x: 6 y: 5
+alpha: -0 beta: -0.0828427
+Ray direction: 0 0.664 -0.747733
+x: 6 y: 6
+alpha: -0.0828427 beta: -0.0828427
+Ray direction: 0.08228 0.661748 -0.745198
+x: 6 y: 7
+alpha: -0.165685 beta: -0.0828427
+Ray direction: 0.162914 0.655129 -0.737743
+x: 6 y: 8
+alpha: -0.248528 beta: -0.0828427
+Ray direction: 0.240415 0.644525 -0.725802
+x: 6 y: 9
+alpha: -0.331371 beta: -0.0828427
+Ray direction: 0.313583 0.630508 -0.710018
+x: 7 y: 0
+alpha: 0.414214 beta: -0.165685
+Ray direction: -0.378277 0.668994 -0.639807
+x: 7 y: 1
+alpha: 0.331371 beta: -0.165685
+Ray direction: -0.310731 0.686921 -0.656952
+x: 7 y: 2
+alpha: 0.248528 beta: -0.165685
+Ray direction: -0.238132 0.701906 -0.671283
+x: 7 y: 3
+alpha: 0.165685 beta: -0.165685
+Ray direction: -0.161316 0.713231 -0.682114
+x: 7 y: 4
+alpha: 0.0828427 beta: -0.165685
+Ray direction: -0.0814569 0.720294 -0.688869
+x: 7 y: 5
+alpha: -0 beta: -0.165685
+Ray direction: 0 0.722696 -0.691166
+x: 7 y: 6
+alpha: -0.0828427 beta: -0.165685
+Ray direction: 0.0814569 0.720294 -0.688869
+x: 7 y: 7
+alpha: -0.165685 beta: -0.165685
+Ray direction: 0.161316 0.713231 -0.682114
+x: 7 y: 8
+alpha: -0.248528 beta: -0.165685
+Ray direction: 0.238132 0.701906 -0.671283
+x: 7 y: 9
+alpha: -0.331371 beta: -0.165685
+Ray direction: 0.310731 0.686921 -0.656952
+x: 8 y: 0
+alpha: 0.414214 beta: -0.248528
+Ray direction: -0.372978 0.719298 -0.586087
+x: 8 y: 1
+alpha: 0.331371 beta: -0.248528
+Ray direction: -0.306147 0.738016 -0.601338
+x: 8 y: 2
+alpha: 0.248528 beta: -0.248528
+Ray direction: -0.234468 0.753629 -0.614059
+x: 8 y: 3
+alpha: 0.165685 beta: -0.248528
+Ray direction: -0.158755 0.765408 -0.623657
+x: 8 y: 4
+alpha: 0.0828427 beta: -0.248528
+Ray direction: -0.0801384 0.772746 -0.629636
+x: 8 y: 5
+alpha: -0 beta: -0.248528
+Ray direction: 0 0.775239 -0.631668
+x: 8 y: 6
+alpha: -0.0828427 beta: -0.248528
+Ray direction: 0.0801384 0.772746 -0.629636
+x: 8 y: 7
+alpha: -0.165685 beta: -0.248528
+Ray direction: 0.158755 0.765408 -0.623657
+x: 8 y: 8
+alpha: -0.248528 beta: -0.248528
+Ray direction: 0.234468 0.753629 -0.614059
+x: 8 y: 9
+alpha: -0.331371 beta: -0.248528
+Ray direction: 0.306147 0.738016 -0.601338
+x: 9 y: 0
+alpha: 0.414214 beta: -0.331371
+Ray direction: -0.365919 0.764233 -0.531085
+x: 9 y: 1
+alpha: 0.331371 beta: -0.331371
+Ray direction: -0.300057 0.783346 -0.544367
+x: 9 y: 2
+alpha: 0.248528 beta: -0.331371
+Ray direction: -0.22961 0.799245 -0.555416
+x: 9 y: 3
+alpha: 0.165685 beta: -0.331371
+Ray direction: -0.155366 0.811213 -0.563733
+x: 9 y: 4
+alpha: 0.0828427 beta: -0.331371
+Ray direction: -0.0783957 0.818658 -0.568906
+x: 9 y: 5
+alpha: -0 beta: -0.331371
+Ray direction: 0 0.821185 -0.570662
+x: 9 y: 6
+alpha: -0.0828427 beta: -0.331371
+Ray direction: 0.0783957 0.818658 -0.568906
+x: 9 y: 7
+alpha: -0.165685 beta: -0.331371
+Ray direction: 0.155366 0.811213 -0.563733
+x: 9 y: 8
+alpha: -0.248528 beta: -0.331371
+Ray direction: 0.22961 0.799245 -0.555416
+x: 9 y: 9
+alpha: -0.331371 beta: -0.331371
+Ray direction: 0.300057 0.783346 -0.544367
+Done Rendering Image
+Image saved at test.png
