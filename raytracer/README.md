@@ -13,78 +13,38 @@ This project is a simple raytracer developed as part of **CSE 167: Assignment 4*
 ## Project Structure
 ```
 raytracer/
-├── src/                     # Source code
-│   ├── *.cpp, *.h           # Implementation and header files
-│   ├── Makefile.mac         # Build script for macOS
-│   └── Makefile.win         # Build script for Windows
-├── assets/                  # Assets directory
-│   ├── glm-0.9.7.1/         # External library
-│   └── sample_test_files/   # Input files for raytracer (e.g., .test)
-├── testscenes/              # Rendered test scenes (highlight of the project)
-│   ├── scene1-camera1.png
-│   ├── scene1-camera2.png
-│   ├── scene1-camera3.png
-│   ├── scene1-camera4.png
-│   ├── scene2-camera1.png
-│   ├── scene2-camera2.png
-│   ├── scene2-camera3.png
-│   ├── scene4-ambient.png
-│   ├── scene4-diffuse.png
-│   ├── scene4-emission.png
-│   ├── scene4-specular.png
-│   ├── scene5.png
-│   ├── scene6.png
-│   └── scene7.png
-├── output/                  # Output directory for generated images
-└── README.md                # Project documentation
-
+├── testscenes/            # Input files for testing (e.g., .test)
+├── scene4-diffuse.png     # Output image for Scene 4 Diffuse
+├── scene4-specular.png    # Output image for Scene 4 Specular
+├── scene5.png             # Output image for Scene 5
+├── scene6.png             # Output image for Scene 6
+├── scene7.png             # Output image for Scene 7
+└── README.md              # Project documentation
 ```
 
-## Highlights: Test Scenes
+## Highlights: Rendered Scenes
 Below are some of the rendered images produced by the raytracer:
 
-### Scene 1
-| Camera 1                      | Camera 2                      |
-|-------------------------------|-------------------------------|
-| ![scene1-camera1](testscenes/scene1-camera1.png) | ![scene1-camera2](testscenes/scene1-camera2.png) |
-
-| Camera 3                      | Camera 4                      |
-|-------------------------------|-------------------------------|
-| ![scene1-camera3](testscenes/scene1-camera3.png) | ![scene1-camera4](testscenes/scene1-camera4.png) |
-
-### Scene 2
-| Camera 1                      | Camera 2                      | Camera 3                      |
-|-------------------------------|-------------------------------|-------------------------------|
-| ![scene2-camera1](testscenes/scene2-camera1.png) | ![scene2-camera2](testscenes/scene2-camera2.png) | ![scene2-camera3](testscenes/scene2-camera3.png) |
-
 ### Scene 4
-| Ambient                      | Diffuse                      | Emission                      | Specular                      |
-|-------------------------------|-------------------------------|-------------------------------|-------------------------------|
-| ![scene4-ambient](testscenes/scene4-ambient.png) | ![scene4-diffuse](testscenes/scene4-diffuse.png) | ![scene4-emission](testscenes/scene4-emission.png) | ![scene4-specular](testscenes/scene4-specular.png) |
+| Diffuse                      | Specular                      |
+|------------------------------|-------------------------------|
+| ![scene4-diffuse](scene4-diffuse.png) | ![scene4-specular](scene4-specular.png) |
 
 ### Other Scenes
-- Scene 5: ![scene5](testscenes/scene5.png)
-- Scene 6: ![scene6](testscenes/scene6.png)
-- Scene 7: ![scene7](testscenes/scene7.png)
+- Scene 5:
+   ![scene5](scene5.png)
+- Scene 6:
+  ![scene6](scene6.png)
+- Scene 7:
+   ![scene7](scene7.png)
 
 ## Getting Started
 
 ### Prerequisites
 - C++17 compatible compiler (e.g., `g++`)
-- `glm` library (included in the `assets/` directory)
-- `FreeImage` library (installation instructions for macOS and Windows provided below)
+- `glm` library (ensure it’s included in your setup)
+- `FreeImage` library 
 - Make utility
-
-### Building the Project
-
-For macOS:
-```bash
-make -f Makefile.mac
-```
-For Windows:
-```
-make -f Makefile.win
-```
 
 ## Running the Raytracer
 
@@ -115,9 +75,6 @@ The raytracer generates output images in the `output/` directory or directly ove
 
 #### Acceleration Structures
 - Implements a uniform grid for optimized ray-object intersection tests.
-
-#### Extra Credit
-- Additional features such as area lights (soft shadows) and complex materials can be explored for extra credit.
 
 ---
 
