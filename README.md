@@ -2,11 +2,6 @@
 
 Welcome to my project portfolio! This repository is a collection of significant projects from my time at the University of California, San Diego (UCSD), as well as personal and internship projects that reflect my passion for technology, problem-solving, and creativity. The projects here showcase a range of skills, from software development and machine learning to data analysis and computer graphics.
 
-![Me and My Mom](https://lh3.googleusercontent.com/pw/AP1GczNfkUHhf5ma1xoi4zH62Imn3HbFwQ64s_6cs7fm3X6NNCquO8czUEDt2Rw1-VZ2D_TJiCVA4QcND58Ap3kFIeypxRu0PR3cqoTM_9yJ6Gu6YaJrIYoyCP7OctkG31dDMxaM6IW2tDQbtVOpzekawBeGqw=w1652-h1312-s-no-gm?authuser=0)
-(A photo of my mom and I near La Jolla Cove!)
-
----
-
 ## About Me
 
 My name is **Aryaman Pachori**, and I graduated in **June 2024** with a **B.S. in Math and Computer Science** from UCSD. Over the years, I have gained diverse work and internship experiences that align with my passion for technology and problem-solving.
