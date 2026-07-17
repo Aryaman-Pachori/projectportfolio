@@ -6,7 +6,7 @@ Although many of these projects were completed earlier in my career, they demons
 
 ## About Me
 
-I am a **Solutions Engineer at Bright Pattern**, where I help enterprise customers implement and optimize AI-powered SaaS solutions.
+I am a **Solutions Engineer** which is a fancy way of saying I help enterprise as well as municipal customers implement and optimize AI-powered SaaS solutions.
 
 My work spans technical discovery, solution design, system configuration, integrations, testing, deployment, training, and post-launch support. I translate business requirements into scalable technical workflows and collaborate with customers, product managers, engineers, and operations teams to deliver reliable solutions.
 
