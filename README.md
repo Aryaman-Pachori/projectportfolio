@@ -1,62 +1,66 @@
-# Aryaman Pachori's Project Portfolio
+# Aryaman Pachori | Project Portfolio
 
-Welcome to my project portfolio! This repository is a collection of significant projects from my time at the University of California, San Diego (UCSD), as well as personal and internship projects that reflect my passion for technology, problem-solving, and creativity. The projects here showcase a range of skills, from software development and machine learning to data analysis and computer graphics.
+Welcome to my project portfolio. This repository contains selected software engineering, machine learning, data analysis, and computer graphics projects developed through coursework at the University of California, San Diego, internships, and independent work.
+
+Although many of these projects were completed earlier in my career, they demonstrate the technical foundation I now apply in customer-facing solution engineering and enterprise software implementations.
 
 ## About Me
 
-My name is **Aryaman Pachori**, and I graduated in **June 2024** with a **B.S. in Math and Computer Science** from UCSD. Over the years, I have gained diverse work and internship experiences that align with my passion for technology and problem-solving.
+I am a **Solutions Engineer at Bright Pattern**, where I help enterprise customers implement and optimize AI-powered SaaS solutions.
 
-- **Internship Experience:**
-  - At **NeuroLeap**, I was part of the software team, building frontend components for report cards assessing neurodivergent children's performance metrics. My work supported special education curriculums across California schools.
-  - During my **study abroad in Madrid**, I interned with **Urban Roosters**, a startup focused on Latin American rap battle content. I developed machine learning algorithms to enhance platform engagement, integrating data analysis with creative entertainment.
+My work spans technical discovery, solution design, system configuration, integrations, testing, deployment, training, and post-launch support. I translate business requirements into scalable technical workflows and collaborate with customers, product managers, engineers, and operations teams to deliver reliable solutions.
 
-- **Academic and Personal Projects:**
-  - A **computer graphics project** using OpenGL and C++ to create a ray tracer.
-  - A **machine learning project** predicting credit default risks, utilizing TensorFlow, Scikeras, and AWS QuickSight for modeling and visualization.
-  - Contributions to **LingoHero**, a language-learning app where I developed frontend screens with React Native and integrated backend functionality using Firebase.
+My experience includes:
 
-- **Current Role:**
-  - I work as a **Field Tech Expert for Asurion**, where I provide technical support and troubleshooting for various consumer technologies. While this role has honed my client-facing skills, I am eager to transition into roles involving **software development**, **data science**, or **product management**.
+- Leading technical discovery and requirements analysis
+- Designing customer-specific workflows and system configurations
+- Supporting CRM, API, and enterprise system integrations
+- Developing SQL-based reports and operational dashboards
+- Configuring and demonstrating conversational AI, automation, transcription, summarization, intent detection, and quality-management capabilities
+- Running product demonstrations, proofs of concept, implementation testing, and customer training
+- Troubleshooting complex technical issues and coordinating resolutions across engineering, product, and operations teams
 
-I am a natural collaborator with an **outgoing personality, strong communication skills**, and a knack for connecting with people. I thrive in dynamic, multicultural environments, such as my current living situation in a communal pod housing in San Francisco, which mirrors the energy of a college dorm. Here, I’ve strengthened my ability to collaborate with people from various backgrounds.
+I graduated from **UC San Diego in June 2024** with a **B.S. in Mathematics–Computer Science**. My academic background in algorithms, software engineering, statistics, numerical methods, and computer systems continues to shape how I approach technical problem-solving.
 
-Beyond my professional and technical pursuits, I am passionate about **dancing**, having trained in **contemporary and jazz** from the age of 7 to 16. I also enjoy **working out, cooking, exploring history**, and spending time in **nature**. These activities keep me grounded and creatively inspired.
+## Featured Project Areas
 
----
+### Software Engineering and Computer Graphics
+
+Projects focused on object-oriented programming, algorithms, systems concepts, and graphical computation, including a ray tracer developed with C++ and OpenGL.
+
+### Machine Learning and Predictive Modeling
+
+A credit-default prediction project covering data preparation, feature analysis, model development, evaluation, and interpretation. The project demonstrates the process of translating a business problem into a testable predictive solution.
+
+### Application Development
+
+Contributions to **LingoHero**, a language-learning application developed using React Native. The project involved building user-facing screens, implementing application logic, and collaborating within an existing product structure.
+
+### Internship Projects
+
+- **NeuroLeap:** Developed frontend components for performance report cards used to assess learning and behavioral metrics for neurodivergent students.
+- **Urban Roosters:** Applied machine learning and data analysis to audience-engagement use cases for a digital entertainment platform during a study-abroad internship in Madrid.
+
+## Technical Skills
+
+- **Programming:** Python, SQL, JavaScript, Java, C, C++, R, MATLAB
+- **Web and Application Development:** React, React Native, HTML, CSS, REST APIs
+- **Enterprise Solutions:** SaaS implementations, solution design, systems integration, workflow automation, and technical configuration
+- **Data and Reporting:** SQL, data analysis, operational reporting, dashboards, and data visualization
+- **Cloud and Development Tools:** AWS, GCP, Git, Linux, and Jupyter
+- **AI and Automation:** Conversational AI, virtual agents, transcription, automated summarization, intent detection, agent assistance, and quality management
+- **Customer-Facing Engineering:** Technical discovery, requirements analysis, proofs of concept, implementation testing, troubleshooting, customer training, and stakeholder management
 
 ## About This Repository
 
-This repository is designed to provide a comprehensive overview of my most impactful projects. These projects demonstrate my technical expertise, creative problem-solving abilities, and commitment to continuous learning.
+The projects in this repository represent different stages of my technical development. Together, they demonstrate my ability to:
 
-### Projects Included
-
-- **Academic Projects**: 
-  - Challenging assignments and group collaborations from UCSD coursework, including graphics, machine learning, and data analysis.
-
-- **Internship Work**: 
-  - Key contributions from my internships at **NeuroLeap** and **Urban Roosters**.
-
-- **Personal Projects**: 
-  - Self-initiated work, such as a language learning app and machine learning-driven data visualizations.
-
----
-
-## Highlights
-
-- **Languages and Tools**: Python, C++, React Native, TensorFlow, Scikeras, Firebase, OpenGL
-- **Key Skills**: 
-  - Software Development
-  - Machine Learning
-  - Data Analysis and Visualization
-  - Frontend Development
-  - Cross-functional Collaboration
-
----
+- Break down ambiguous problems into structured technical requirements
+- Design, build, test, and explain software-based solutions
+- Work across application development, data, machine learning, and systems concepts
+- Communicate technical decisions to technical and non-technical audiences
+- Apply a strong computer science foundation to real customer and business problems
 
 ## Contact
 
-Feel free to reach out to me via [LinkedIn](https://www.linkedin.com/in/aryaman-pachori-848825115/) or email at **aryaman.pachori@gmail.com** if you’d like to learn more about my work or discuss potential opportunities.
-
----
-
-Thank you for taking the time to explore my project portfolio!
+Connect with me on [LinkedIn](https://www.linkedin.com/in/aryaman-pachori-848825115/) or email me at **aryaman.pachori@gmail.com** to discuss solutions engineering, implementation, technical consulting, or customer-facing engineering opportunities.
